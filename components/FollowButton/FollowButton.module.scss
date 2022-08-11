@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+$border_style: 2px solid $color_Selected;
+$padding_x: 0;
+$padding_y: 10px;
+
+.btn {
+  font-family: $fontFamily_400;
+  font-size: 14px;
+  line-height: 13px;
+  border-radius: 0;
+  width: 154px;
+}
+
+.outlined {
+  padding: $padding_y $padding_x;
+  color: $color_Selected;
+  border: $border_style;
+
+  &:hover {
+    border: $border_style;
+  }
+}
+
+.contained {
+  padding: calc($padding_y + 2px) $padding_x;
+  color: $color_White;
+  background-color: $color_Selected;
+
+  &:hover {
+    background-color: $color_Selected;
+  }
+}
