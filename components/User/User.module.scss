@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 22px;
+  border-bottom: 1px solid $color_Light-transparency;
+}
+
+.photoAndDescryWrapper {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 17px;
+}
+
+.descryWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  row-gap: 6px;
+
+  & > * {
+    margin: 0;
+  }
+
+  & > h3 {
+    font-family: $fontFamily_400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #4F4F4F;
+  }
+
+  & > p {
+    font-family: $fontFamily_300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+}
+
+.avatar {
+  height: 67px;
+  width: 67px;
+  border-radius: 0;
+  pointer-events: none;
+}

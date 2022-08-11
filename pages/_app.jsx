@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import '../styles/globals.scss';
+import '../components/FollowToggle/FollowToggle.scss';
 
 function MyApp({ Component, pageProps }) {
   return (

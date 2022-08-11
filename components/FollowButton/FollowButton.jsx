@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import styles from './FollowButton.module.scss';
 
 export const FollowButton = () => {
-  const [condition, setCondition] = useState(true);
+  const [condition, setCondition] = useState(false);
   const OUTLINED = {
     status: 'outlined',
     title: 'Unfollow'
