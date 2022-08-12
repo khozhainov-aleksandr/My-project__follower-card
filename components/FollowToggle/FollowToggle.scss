@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 @import '../../styles/mixins';
 
-.mainToggle {
+.mainToggle.MuiToggleButton-root.MuiToggleButton-sizeMedium {
   display: flex;
   column-gap: 40px;
   
