@@ -1,15 +1,26 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 $border_style: 2px solid $color_Selected;
 $padding_x: 0;
 $padding_y: 10px;
 
 .btn {
-  font-family: $fontFamily_400;
+  font-family: $fontGotham_400;
   font-size: 14px;
   line-height: 13px;
+  text-transform: capitalize;
   border-radius: 0;
-  width: 154px;
+  min-width: 154px;
+
+  @include on-tablet {
+    font-family: $fontRoboto_500;
+    line-height: 16px;
+  }
+
+  @include on-mobile {
+    min-width: 105px;
+  }
 }
 
 .outlined {

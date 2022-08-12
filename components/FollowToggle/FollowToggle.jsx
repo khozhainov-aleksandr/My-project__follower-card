@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
-export const FollowToggle = ({followersNumber, followingNumber}) => {
-  const [followers, setFollowers] = useState(followersNumber);
-  const [following, setFollowing] = useState(followingNumber);
+export const FollowToggle = () => {
+  const [followers, setFollowers] = useState(83);
+  const [following, setFollowing] = useState(4389);
   const [alignment, setAlignment] = useState('Followers');
 
   const handleChange = (event, newAlignment) => {

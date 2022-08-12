@@ -8,10 +8,7 @@ export const Card = () => {
   return (
     <div className={styles.card}>
       <div className={styles.cardHeader}>
-        <FollowToggle
-          followersNumber={83}
-          followingNumber={4389}
-        />
+        <FollowToggle />
       </div>
 
       {
