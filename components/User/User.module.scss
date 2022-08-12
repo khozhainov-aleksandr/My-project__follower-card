@@ -49,12 +49,10 @@
       font-family: $fontRoboto_500;
       line-height: 19px;
       color: $color_Black;
-      background: rgba(255, 0, 0, 0.1);
     }
 
     @include on-mobile {
       font-weight: 300;
-      background: rgba(0, 0, 255, 0.1);
     }
   }
 

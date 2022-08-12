@@ -5,7 +5,7 @@ $border_style: 2px solid $color_Selected;
 $padding_x: 0;
 $padding_y: 10px;
 
-.btn {
+button.btn {
   font-family: $fontGotham_400;
   font-size: 14px;
   line-height: 13px;
@@ -23,7 +23,7 @@ $padding_y: 10px;
   }
 }
 
-.outlined {
+button.outlined {
   padding: $padding_y $padding_x;
   color: $color_Selected;
   border: $border_style;
@@ -33,7 +33,7 @@ $padding_y: 10px;
   }
 }
 
-.contained {
+button.contained {
   padding: calc($padding_y + 2px) $padding_x;
   color: $color_White;
   background-color: $color_Selected;
